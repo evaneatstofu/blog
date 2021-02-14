@@ -38,13 +38,13 @@ module.exports = {
   },
 },
 {
-  resolve: `gatsby-google-fonts`,
+  resolve: `gatsby-plugin-google-fonts`,
   options: {
     fonts: [
-      `roboto mono`,
-      `muli\:400,400i,700,700i`,
+      `limelight`,
+      `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
     ],
-    display: "swap",
+    display: 'swap'
   },
 },
   ],
